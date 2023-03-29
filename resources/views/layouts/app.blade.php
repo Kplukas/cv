@@ -12,6 +12,7 @@
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Scripts -->
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
@@ -70,10 +71,11 @@
                 </div>
             </div>
         </nav>
-
-        <main class="py-4">
-            @yield('content')
-        </main>
-    </div>
+        <a href="#" class="shadow rounded-3 gotop">&uarr;</a>
+        <div>
+            <main class="py-4">
+                @yield('content')
+            </main>
+        </div>
 </body>
 </html>

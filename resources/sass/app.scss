@@ -6,3 +6,51 @@
 
 // Bootstrap
 @import 'bootstrap/scss/bootstrap';
+
+// Custom 
+.gotop {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 40px;
+    right: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 22px;
+    background-color: black;
+    transition: 0.5s;
+    border: 2px solid black;
+    box-shadow: inset;
+}
+.gotop:hover {
+    background-color: white;
+    color: black;
+    font-size: 32px;
+}
+.buttons-side {
+    position:fixed;
+    width: 50px;
+    bottom: 200px;
+    right:50px;
+}
+.buttons-side a {
+    display:block;
+    writing-mode: vertical-lr;
+    text-orientation:sideways;
+    width:50px;
+    padding:20px;
+    height: 110px;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+}
+.buttons-side a:hover {
+    background-color: white;
+    color:black;
+    font-weight:bolder;
+} 
