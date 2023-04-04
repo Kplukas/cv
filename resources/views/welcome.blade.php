@@ -9,19 +9,23 @@
 </div>
 
 
-<section class="mt-4 p-5 bg-dark bg-gradient" id="me">
-    <div class="d-inline-block col-4 ms-5 text-end border rounded-3 p-3 text-light">
-        <h2 class="fs-2">Aš esu Kristupas Plukas</h2>
-        <p class="fs-4">
-            Neseniai baigiau Baltijos technologijų institutą, kur įgyjau jaunesniojo programuotojo kvalifikaciją
-            (php programuotojo modulinėje profesinio mokymo programoje).
-            Šiuo metu ieškau darbo IT industrijoje, todėl įdomus ir aktualūs visi pasiūlymai.
-        </p>
-    </div>
-    <div class="d-inline-block col-5 ms-5">
-        <figure class="figure ms-5">
-            <img src="./img/myface.jpg" class="figure-img img-fluid rounded shadow-lg" alt="Kristupas photo">
-        </figure>
+<section class="p-5 bg-dark bg-gradient" id="me">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="d-inline-block col-12 col-md-7 col-lg-6 text-end border rounded-3 p-3 me-3 text-light align-self-center">
+                <h2 class="">Aš esu Kristupas Plukas</h1>
+                    <p class="">
+                        Neseniai baigiau Baltijos technologijų institutą, kur įgyjau jaunesniojo programuotojo kvalifikaciją
+                        (php programuotojo modulinėje profesinio mokymo programoje).
+                        Šiuo metu ieškau darbo IT industrijoje, todėl įdomus ir aktualūs visi pasiūlymai.
+                    </p>
+            </div>
+            <div class="d-inline-block col-12 col-md-3 col-lg-5 align-self-center">
+                <figure class="figure">
+                    <img src="./img/myface.jpg" class="figure-img img-fluid rounded shadow-lg" alt="Kristupas photo">
+                </figure>
+            </div>
+        </div>
     </div>
 </section>
 <section class="border-top" id="projects">
@@ -45,8 +49,7 @@
     </div>
 </section>
 <section class="border-top bg-dark bg-gradient text-white" id="contacts">
-    <div class="container mt-2 pb-5">
-        <h2 class="mt-5 text-end">KONTAKTAI</h2>
+    <div class="container mt-2  pt-5 pb-5">
         <div class="row justify-content-end">
             <div class="col-4 fs-4 m-2 p-2 border rounded shadow-sm text-center">
                 <h3>GitHub: </h3>

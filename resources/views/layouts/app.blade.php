@@ -73,7 +73,7 @@
         </nav>
         <a href="#" class="shadow rounded-3 gotop">&uarr;</a>
         <div>
-            <main class="py-4">
+            <main>
                 @yield('content')
             </main>
         </div>
