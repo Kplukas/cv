@@ -6,6 +6,7 @@
     <a href="#me" class="">Apie mane</a>
     <a href="#projects" class="">Projektai</a>
     <a href="#contacts" class="">Kontaktai</a>
+    <a href="#work" class="">Darbo patirtis</a>
 </div>
 
 
@@ -32,7 +33,7 @@
     <div class="container mb-5">
         <h2 class="mt-5">MANO PROJEKTAI</h2>
         <div class="shadow-sm row border rounded p-3 mb-2">
-            <a class="btn btn-outline-dark btn-lg d-inline-block col" href="">1 PROJECT NAME</a>
+            <a class="btn btn-outline-dark btn-lg d-inline-block col" href="{{route('article-index')}}">1 PROJECT NAME</a>
             <p class="d-inline-block">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
             </p>
         </div>
@@ -70,5 +71,81 @@
         </div>
     </div>
 </section>
+<section class="border-top" id="work">
+    <div class="container mb-5">
+        <h2 class="mt-5">DARBO PATIRTIS</h2>
+        <div class="shadow-sm row border rounded p-3 mb-2">
+            <div class="col-12 col-md-4">
+                <p>2021.10 - 2022.07</p>
+                <p>Lietuvos kariuomėnė</p>
+            </div>
+            <div class="col-12 col-md-8 border-start">
+                <h3 class="border-bottom">
+                    NPPKT Šaulys-gelbėtojas / vyr. Šaulys
+                </h3>
+                <p>
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                </p>
+            </div>
+        </div>
+        <div class="shadow-sm row border rounded p-3 mb-2">
+            <div class="col-12 col-md-4">
+                <p>2021.03 - 2021.10</p>
+                <p>Capital Lietuva</p>
+            </div>
+            <div class="col-12 col-md-8 border-start">
+                <h3 class="border-bottom">
+                    NT brokeris
+                </h3>
+                <p>
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                </p>
+            </div>
+        </div>
+        <div class="shadow-sm row border rounded p-3 mb-2">
+            <div class="col-12 col-md-4">
+                <p>2020.06 - 2021.03</p>
+                <p>AB Freda</p>
+            </div>
+            <div class="col-12 col-md-8 border-start">
+                <h3 class="border-bottom">
+                    Operatoriaus asistentas
+                </h3>
+                <p>
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                </p>
+            </div>
+        </div>
+        <div class="shadow-sm row border rounded p-3 mb-2">
+            <div class="col-12 col-md-4">
+                <p>2018.11 - 2020.06</p>
+                <p>UAB Litcargus</p>
+            </div>
+            <div class="col-12 col-md-8 border-start">
+                <h3 class="border-bottom">
+                    Keleivių aptarnavimo skyriaus agentas
+                </h3>
+                <p>
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                </p>
+            </div>
+        </div>
+        <div class="shadow-sm row border rounded p-3 mb-2">
+            <div class="col-12 col-md-4">
+                <p>2018.04 - 2018.09</p>
+                <p>BLS | UAB Agrosistemos</p>
+            </div>
+            <div class="col-12 col-md-8 border-start">
+                <h3 class="border-bottom">
+                    Prekių atrinkėjas | Montuotojas
+                </h3>
+                <p>
+                    Vasaros darbai.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 @endsection
